@@ -1,13 +1,14 @@
-import Weather from './Weather';
+import Weather from './WeatherSearch';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello World</h1>
-        <Weather city="Manchester"/>
+        <h1>Weather Search Engine</h1>
+        <Weather city="Manchester" />
       </header>
+      
     </div>
   );
 }
